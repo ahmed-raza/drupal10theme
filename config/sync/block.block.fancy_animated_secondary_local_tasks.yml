@@ -1,0 +1,22 @@
+uuid: 49e1a2e9-b949-4fa0-980a-1ebff3c4657a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fancy_animated
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: fancy_animated_secondary_local_tasks
+theme: fancy_animated
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

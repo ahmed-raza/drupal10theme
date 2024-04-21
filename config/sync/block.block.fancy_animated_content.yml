@@ -1,0 +1,22 @@
+uuid: ca615151-3779-4bd0-9e5b-577e1cf4c2ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fancy_animated
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: fancy_animated_content
+theme: fancy_animated
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

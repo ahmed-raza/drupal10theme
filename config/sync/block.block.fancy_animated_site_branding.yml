@@ -1,0 +1,25 @@
+uuid: ae3d6845-7af2-407c-ab13-e050e1db8270
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fancy_animated
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: fancy_animated_site_branding
+theme: fancy_animated
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

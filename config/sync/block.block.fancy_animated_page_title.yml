@@ -1,0 +1,20 @@
+uuid: 1f7df95f-d5e1-484b-85c7-d92c66df09a0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fancy_animated
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: fancy_animated_page_title
+theme: fancy_animated
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b0185cfd-9d83-47c4-bbbf-09848f104c45
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fancy_animated
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: fancy_animated_powered
+theme: fancy_animated
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
